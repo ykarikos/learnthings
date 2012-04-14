@@ -1,6 +1,19 @@
 
-rooster.jpg http://en.wikipedia.org/wiki/File:Coq_Belle-Ile.jpg
+rooster.jpg http://commons.wikimedia.org/wiki/File:Coq_Belle-Ile.jpg
 rooster.ogg http://www.animal-sounds.org/farm/Rooster%20animals070.wav
 sheep.jpg http://commons.wikimedia.org/wiki/File:Lleyn_sheep.jpg
 sheep.ogg http://www.animal-sounds.org/farm/Sheep%20animals058.wav
-
+pig.jpg http://commons.wikimedia.org/wiki/File:Sus_scrofa_scrofa.jpg
+pig.ogg http://www.animal-sounds.org/farm/Pigs%20eating%20animals113.wav
+cow.jpg http://commons.wikimedia.org/wiki/File:Cow_female_black_white.jpg
+cow.ogg http://www.animal-sounds.org/farm/Cow%20animals084.wav
+dog.jpg http://commons.wikimedia.org/wiki/File:YellowLabradorLooking_new.jpg
+dog.ogg http://www.animal-sounds.org/farm/Dog%20bark%20animals079.wav
+horse.jpg http://commons.wikimedia.org/wiki/File:Nokota_Horses.jpg
+horse.ogg http://www.animal-sounds.org/farm/Horse-whinnying%20animals037.wav
+duck.jpg http://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_var._domesticus_01.jpg
+duck.ogg http://www.animal-sounds.org/farm/Duck-quacking%20animals038.wav
+cat.jpg http://commons.wikimedia.org/wiki/File:European_shorthair_procumbent_Quincy.jpg
+cat.ogg http://www.animal-sounds.org/farm/Cat%20meow%20animals021.wav
+chicken.jpg http://commons.wikimedia.org/wiki/File:Chickens_eating.jpg
+chicken.ogg http://www.animal-sounds.org/farm/Chicken%20coop%20animals050.wav

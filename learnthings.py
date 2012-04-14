@@ -49,6 +49,7 @@ if not os.access(os.path.join("media", category), os.R_OK):
     sys.exit()
 
 # Init pygame display
+print "Loading", category, "..."
 pygame.init()
 black = 0, 0, 0
 screen = pygame.display.set_mode((0,0), pygame.FULLSCREEN)
