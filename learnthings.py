@@ -1,4 +1,4 @@
-#!/opt/local/bin/python2.7
+#!/usr/bin/python
 
 import os, sys, pygame, random
 from pygame.locals import *
