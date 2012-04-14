@@ -1,6 +1,6 @@
 #!/opt/local/bin/python2.7
 
-import sys, pygame
+import os, sys, pygame
 pygame.init()
 
 black = 0, 0, 0
@@ -11,17 +11,53 @@ info = pygame.display.Info()
 width = info.current_w
 height = info.current_h
 
-roosterSound = pygame.mixer.Sound("media/animals/sounds/rooster.ogg")
+class NoneSound:
+    def play(self): pass
 
-rooster = pygame.image.load("media/animals/photos/rooster.jpg")
-rooster = rooster.convert()
-pos = ( (width - rooster.get_width())/2, (height - rooster.get_height())/2 )
+class Thing:
+    """A thing that contains an image and a sound"""
+    def __init__(self, category, name):
+        self.name = name
+        self.category = category
+        self.load()
+        
+    def load(self):
+        self.loadsound()
+        self.loadimage()
+    
+    def loadimage(self):
+        imagepath = os.path.join("media", self.category, "photos", self.name + ".jpg")
+        try:
+            self.image = pygame.image.load(imagepath)
+        except pygame.error, message:
+            raise SystemExit, message
+        self.image = self.image.convert()
+        self.pos = ( (width - self.image.get_width())/2, (height - self.image.get_height())/2 )
 
-screen.fill(black)
-screen.blit(rooster, pos)
-pygame.display.flip()
-roosterSound.play()
+    def loadsound(self):
+        if not pygame.mixer:
+            self.sound = NoneSound()
+        else:
+            soundpath = os.path.join("media", self.category, "sounds", self.name     + ".ogg")
+            self.sound = pygame.mixer.Sound(soundpath)
+
+    def show(self):
+        screen.fill(black)
+        screen.blit(self.image, self.pos)
+        pygame.display.flip()
+        self.sound.play()
+
+rooster = Thing("animals", "rooster")
+sheep = Thing("animals", "sheep")
+
+rooster.show()
 
 while 1:
     for event in pygame.event.get():
-        if event.type == pygame.KEYDOWN: sys.exit()
+        if event.type == pygame.QUIT:
+            sys.exit()
+        elif event.type == pygame.KEYDOWN: 
+            if event.key == pygame.K_ESCAPE: 
+                sys.exit()
+            else:
+                sheep.show()
