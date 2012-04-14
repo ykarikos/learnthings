@@ -1,16 +1,8 @@
 #!/opt/local/bin/python2.7
 
-import os, sys, pygame
+import os, sys, pygame, random
 from pygame.locals import *
 pygame.init()
-
-black = 0, 0, 0
-
-screen = pygame.display.set_mode((0,0), pygame.FULLSCREEN)
-pygame.mouse.set_visible(False)
-info = pygame.display.Info()
-width = info.current_w
-height = info.current_h
 
 class NoneSound:
     def play(self): pass
@@ -48,17 +40,37 @@ class Thing:
         pygame.display.flip()
         self.sound.play()
 
-rooster = Thing("animals", "rooster")
-sheep = Thing("animals", "sheep")
+# Parse arguments
+if len(sys.argv) < 2:
+    print "Usage: ", sys.argv[0], "category"
+    sys.exit()
 
-rooster.show()
+category = sys.argv[1]
+
+# Init pygame display
+black = 0, 0, 0
+screen = pygame.display.set_mode((0,0), pygame.FULLSCREEN)
+pygame.mouse.set_visible(False)
+info = pygame.display.Info()
+width = info.current_w
+height = info.current_h
+
+# Load things
+thingNames = map(
+    lambda s: s[:s.rindex(".jpg")], 
+    os.listdir(os.path.join("media", category, "photos")))
+things = map(lambda n: Thing(category, n), thingNames)
+
+# Show first random thing
+things[random.randint(0, len(things)-1)].show()
 
 keypresses = 0
 
+# Event loop
 while 1:
     if keypresses > 10:
         keypresses = 0
-        sheep.show()
+        things[random.randint(0, len(things)-1)].show()
     for event in pygame.event.get():
         if event.type == QUIT:
             sys.exit()
