@@ -1,0 +1,6 @@
+
+rooster.jpg http://en.wikipedia.org/wiki/File:Coq_Belle-Ile.jpg
+rooster.ogg http://www.animal-sounds.org/farm/Rooster%20animals070.wav
+sheep.jpg http://commons.wikimedia.org/wiki/File:Lleyn_sheep.jpg
+sheep.ogg http://www.animal-sounds.org/farm/Sheep%20animals058.wav
+
