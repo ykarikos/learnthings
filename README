@@ -1,0 +1,13 @@
+Learnthings shows images and plays sounds of things. It is meant for
+small kids to learn to recognize e.g. animals.
+
+The media subdirectory contains photos and sounds of different kind of
+things. I've collected some public domain or free photos and sounds of
+animals there.
+
+Usage: ./learnthings.py category
+Category must be found as a subdirectory under media. Try
+./learnthings animals
+
+The program quits with Ctrl-q. New things are displayed after any five
+key are pressed.
