@@ -2,7 +2,6 @@
 
 import os, sys, pygame, random
 from pygame.locals import *
-pygame.init()
 
 class NoneSound:
     def play(self): pass
@@ -44,10 +43,13 @@ class Thing:
 if len(sys.argv) < 2:
     print "Usage: ", sys.argv[0], "category"
     sys.exit()
-
 category = sys.argv[1]
+if not os.access(os.path.join("media", category), os.R_OK):
+    print category, "category not found"
+    sys.exit()
 
 # Init pygame display
+pygame.init()
 black = 0, 0, 0
 screen = pygame.display.set_mode((0,0), pygame.FULLSCREEN)
 pygame.mouse.set_visible(False)
@@ -68,7 +70,7 @@ keypresses = 0
 
 # Event loop
 while 1:
-    if keypresses > 10:
+    if keypresses > 5:
         keypresses = 0
         things[random.randint(0, len(things)-1)].show()
     for event in pygame.event.get():
