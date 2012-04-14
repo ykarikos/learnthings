@@ -1,6 +1,7 @@
 #!/opt/local/bin/python2.7
 
 import os, sys, pygame
+from pygame.locals import *
 pygame.init()
 
 black = 0, 0, 0
@@ -32,7 +33,7 @@ class Thing:
         except pygame.error, message:
             raise SystemExit, message
         self.image = self.image.convert()
-        self.pos = ( (width - self.image.get_width())/2, (height - self.image.get_height())/2 )
+        self.image = pygame.transform.smoothscale(self.image, (width, height))
 
     def loadsound(self):
         if not pygame.mixer:
@@ -43,7 +44,7 @@ class Thing:
 
     def show(self):
         screen.fill(black)
-        screen.blit(self.image, self.pos)
+        screen.blit(self.image, (0,0))
         pygame.display.flip()
         self.sound.play()
 
@@ -52,12 +53,17 @@ sheep = Thing("animals", "sheep")
 
 rooster.show()
 
+keypresses = 0
+
 while 1:
+    if keypresses > 10:
+        keypresses = 0
+        sheep.show()
     for event in pygame.event.get():
-        if event.type == pygame.QUIT:
+        if event.type == QUIT:
             sys.exit()
-        elif event.type == pygame.KEYDOWN: 
-            if event.key == pygame.K_ESCAPE: 
+        elif event.type == KEYDOWN:
+            if event.mod & KMOD_CTRL and event.key == K_q:
                 sys.exit()
             else:
-                sheep.show()
+                keypresses = keypresses + 1
