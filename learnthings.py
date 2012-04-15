@@ -37,6 +37,8 @@ class Thing:
         for y in range(-height, 1, 25):
             screen.blit(self.image, (0,y))
             pygame.display.flip()
+        screen.blit(self.image, (0,0))
+        pygame.display.flip()
         self.sound.play()
 
 # Parse arguments
