@@ -17,3 +17,22 @@ cat.jpg http://commons.wikimedia.org/wiki/File:European_shorthair_procumbent_Qui
 cat.ogg http://www.animal-sounds.org/farm/Cat%20meow%20animals021.wav
 chicken.jpg http://commons.wikimedia.org/wiki/File:Chickens_eating.jpg
 chicken.ogg http://www.animal-sounds.org/farm/Chicken%20coop%20animals050.wav
+
+nightingale.jpg http://commons.wikimedia.org/wiki/File:Nachtigall_%28Luscinia_megarhynchos%29.jpg
+nightingale.ogg http://commons.wikimedia.org/wiki/File:XN_Luscinia_megarhynchos_012.ogg
+great-tit.jpg http://commons.wikimedia.org/wiki/File:Parus_major_2_Luc_Viatour.jpg
+great-tit.ogg http://commons.wikimedia.org/wiki/File:Parus_major_song.ogg
+peippo.jpg http://commons.wikimedia.org/wiki/File:Chaffinch_%28Fringilla_coelebs%29.jpg
+peippo.ogg http://upload.wikimedia.org/wikipedia/commons/a/a1/Fringilla_coelebs_short.ogg
+cuckoo.jpg http://commons.wikimedia.org/wiki/File:Cuculus_canorus_vogelartinfo_chris_romeiks_CHR0791.jpg
+cuckoo.ogg http://en.wikipedia.org/wiki/File:Cuculus_canorus.ogg
+eagle-owl.jpg http://commons.wikimedia.org/wiki/File:Uhu-muc.jpg
+eagle-owl.ogg http://www.animal-sounds.org/Air/owl%20animals074.wav
+common-snipe.jpg http://commons.wikimedia.org/wiki/File:Gallinago_gallinago_a1.JPG
+common-snipe.ogg http://en.wikipedia.org/wiki/File:Gallinago_gallinago.ogg
+seagull.jpg http://commons.wikimedia.org/wiki/File:Gull_ca_usa.jpg
+seagull.ogg http://www.animal-sounds.org/Air/Seagulls%20animals133.wav
+crow.jpg http://commons.wikimedia.org/wiki/File:Wrona_Siwa.jpg
+crow.ogg http://en.wikipedia.org/wiki/File:Corvus_cornix.ogg
+pigeon.jpg http://commons.wikimedia.org/wiki/File:Wood.pigeon.slimbridge.arp.jpg
+pigeon.ogg http://commons.wikimedia.org/wiki/File:Columba_palumbus_birdsong.ogg
