@@ -34,9 +34,9 @@ class Thing:
             self.sound = pygame.mixer.Sound(soundpath)
 
     def show(self):
-        screen.fill(black)
-        screen.blit(self.image, (0,0))
-        pygame.display.flip()
+        for y in range(-height, 1, 25):
+            screen.blit(self.image, (0,y))
+            pygame.display.flip()
         self.sound.play()
 
 # Parse arguments

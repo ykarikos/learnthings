@@ -11,3 +11,5 @@ Category must be found as a subdirectory under media. Try
 
 The program quits with Ctrl-q. New things are displayed after any five
 key are pressed.
+
+Requirements: Python and Pygame
