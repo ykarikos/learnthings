@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 import os, sys, pygame, random
+from time import time
 from pygame.locals import *
 
 class NoneSound:
@@ -70,23 +71,28 @@ things = map(lambda n: Thing(category, n), thingNames)
 things[random.randint(0, len(things)-1)].show()
 
 keypresses = 0
+thingsShown = 1
+startTime = time()
 # Exit sequence
 exitSeq = [K_q, K_u, K_i, K_t]
 exitIndex = 0
 
 # Event loop
-while 1:
+while exitIndex != len(exitSeq):
     if keypresses > 8:
         keypresses = 0
         things[random.randint(0, len(things)-1)].show()
+        thingsShown = thingsShown + 1
     for event in pygame.event.get():
         if event.type == QUIT:
             sys.exit()
         elif event.type == KEYDOWN:
+            keypresses = keypresses + 1
             if event.key == exitSeq[exitIndex]:
                 exitIndex = exitIndex + 1
-                if exitIndex == len(exitSeq):
-                    sys.exit()
             else:
-                keypresses = keypresses + 1
                 exitIndex = 0
+
+delta = time() - startTime
+timePerThing = int(delta/thingsShown)
+print thingsShown, "things shown in", int(delta), "seconds, ", timePerThing, "s/thing"
