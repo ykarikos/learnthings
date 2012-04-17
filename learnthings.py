@@ -30,7 +30,7 @@ class Thing:
         if not pygame.mixer:
             self.sound = NoneSound()
         else:
-            soundpath = os.path.join("media", self.category, "sounds", self.name     + ".ogg")
+            soundpath = os.path.join("media", self.category, "sounds", self.name + ".ogg")
             self.sound = pygame.mixer.Sound(soundpath)
 
     def show(self):
@@ -70,17 +70,23 @@ things = map(lambda n: Thing(category, n), thingNames)
 things[random.randint(0, len(things)-1)].show()
 
 keypresses = 0
+# Exit sequence
+exitSeq = [K_q, K_u, K_i, K_t]
+exitIndex = 0
 
 # Event loop
 while 1:
-    if keypresses > 5:
+    if keypresses > 8:
         keypresses = 0
         things[random.randint(0, len(things)-1)].show()
     for event in pygame.event.get():
         if event.type == QUIT:
             sys.exit()
         elif event.type == KEYDOWN:
-            if event.mod & KMOD_CTRL and event.key == K_q:
-                sys.exit()
+            if event.key == exitSeq[exitIndex]:
+                exitIndex = exitIndex + 1
+                if exitIndex == len(exitSeq):
+                    sys.exit()
             else:
                 keypresses = keypresses + 1
+                exitIndex = 0

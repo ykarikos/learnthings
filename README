@@ -3,13 +3,13 @@ small kids to learn to recognize e.g. animals.
 
 The media subdirectory contains photos and sounds of different kind of
 things. I've collected some public domain or free photos and sounds of
-animals there.
+animals and birds there.
 
 Usage: ./learnthings.py category
 Category must be found as a subdirectory under media. Try
 ./learnthings animals
 
-The program quits with Ctrl-q. New things are displayed after any five
-key are pressed.
+The program quits with the keyboard sequence "quit".
+New things are displayed after any eight keys are pressed.
 
 Requirements: Python and Pygame
