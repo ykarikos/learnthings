@@ -46,7 +46,13 @@ class Thing:
 if len(sys.argv) < 2:
     print "Usage: ", sys.argv[0], "category"
     sys.exit()
+
 category = sys.argv[1]
+# At least how many seconds each image is showed
+timeTreshold = 5
+# How many times any key must be pressed after timeTreshold seconds
+keypressTreshold = 5
+
 if not os.access(os.path.join("media", category), os.R_OK):
     print category, "category not found"
     sys.exit()
@@ -69,6 +75,7 @@ things = map(lambda n: Thing(category, n), thingNames)
 
 # Show first random thing
 things[random.randint(0, len(things)-1)].show()
+thingShowTime = time()
 
 keypresses = 0
 thingsShown = 1
@@ -79,15 +86,17 @@ exitIndex = 0
 
 # Event loop
 while exitIndex != len(exitSeq):
-    if keypresses > 8:
+    if keypresses > keypressTreshold:
         keypresses = 0
         things[random.randint(0, len(things)-1)].show()
         thingsShown = thingsShown + 1
+        thingShowTime = time()
     for event in pygame.event.get():
         if event.type == QUIT:
             sys.exit()
         elif event.type == KEYDOWN:
-            keypresses = keypresses + 1
+            if (time() - thingShowTime) > timeTreshold:
+                keypresses = keypresses + 1
             if event.key == exitSeq[exitIndex]:
                 exitIndex = exitIndex + 1
             else:
