@@ -36,3 +36,5 @@ crow.jpg http://commons.wikimedia.org/wiki/File:Wrona_Siwa.jpg
 crow.ogg http://en.wikipedia.org/wiki/File:Corvus_cornix.ogg
 pigeon.jpg http://commons.wikimedia.org/wiki/File:Wood.pigeon.slimbridge.arp.jpg
 pigeon.ogg http://commons.wikimedia.org/wiki/File:Columba_palumbus_birdsong.ogg
+blackbird.jpg http://commons.wikimedia.org/wiki/File:Blackbird_2.jpg
+blackbird.ogg http://commons.wikimedia.org/wiki/File:Turdus_merula_2.ogg
