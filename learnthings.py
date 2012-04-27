@@ -42,6 +42,20 @@ class Thing:
         pygame.display.flip()
         self.sound.play()
 
+class Random:
+    """Produce random numbers between 0-limit that do not repeat"""
+    def __init__(self, limit):
+        self.limit = limit-1;
+        self.last = -1;
+
+    def next(self):
+        nextRandom = random.randint(0, self.limit)
+        if nextRandom == self.last:
+            return self.next()
+        else:
+            self.last = nextRandom
+            return nextRandom
+        
 # Parse arguments
 if len(sys.argv) < 2:
     print "Usage: ", sys.argv[0], "category"
@@ -72,9 +86,10 @@ thingNames = map(
     lambda s: s[:s.rindex(".jpg")], 
     os.listdir(os.path.join("media", category, "photos")))
 things = map(lambda n: Thing(category, n), thingNames)
+rnd = Random(len(things))
 
 # Show first random thing
-things[random.randint(0, len(things)-1)].show()
+things[rnd.next()].show()
 thingShowTime = time()
 
 keypresses = 0
@@ -88,7 +103,7 @@ exitIndex = 0
 while exitIndex != len(exitSeq):
     if keypresses > keypressTreshold:
         keypresses = 0
-        things[random.randint(0, len(things)-1)].show()
+        things[rnd.next()].show()
         thingsShown = thingsShown + 1
         thingShowTime = time()
     for event in pygame.event.get():
