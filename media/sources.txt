@@ -38,3 +38,5 @@ pigeon.jpg http://commons.wikimedia.org/wiki/File:Wood.pigeon.slimbridge.arp.jpg
 pigeon.ogg http://commons.wikimedia.org/wiki/File:Columba_palumbus_birdsong.ogg
 blackbird.jpg http://commons.wikimedia.org/wiki/File:Blackbird_2.jpg
 blackbird.ogg http://commons.wikimedia.org/wiki/File:Turdus_merula_2.ogg
+haarapaasky.jpg http://commons.wikimedia.org/wiki/File:Barn_Swallow_%28Hirundo_rustica%29_%2811%29.jpg
+haarapaasky.ogg http://commons.wikimedia.org/wiki/File:JMJ-20110717-070140-000392-barn-swallow.oga
