@@ -40,3 +40,17 @@ blackbird.jpg http://commons.wikimedia.org/wiki/File:Blackbird_2.jpg
 blackbird.ogg http://commons.wikimedia.org/wiki/File:Turdus_merula_2.ogg
 haarapaasky.jpg http://commons.wikimedia.org/wiki/File:Barn_Swallow_%28Hirundo_rustica%29_%2811%29.jpg
 haarapaasky.ogg http://commons.wikimedia.org/wiki/File:JMJ-20110717-070140-000392-barn-swallow.oga
+harakka.jpg http://commons.wikimedia.org/wiki/File:Elster2.jpg
+harakka.ogg http://commons.wikimedia.org/wiki/File:Pica_pica.ogg
+hiirihaukka.jpg http://commons.wikimedia.org/wiki/File:Buteo_buteo_-Scotland-8.jpg
+hiirihaukka.ogg http://commons.wikimedia.org/wiki/File:Buteo_buteo_poiana.ogg
+keltasirkku.jpg http://commons.wikimedia.org/wiki/File:Emberiza_citrinella_1_%28Martin_Mecnarowski%29.jpg
+keltasirkku.ogg http://commons.wikimedia.org/wiki/File:Emberiza_citrinella.ogg
+kiuru.jpg http://commons.wikimedia.org/wiki/File:Alauda_arvensis_2.jpg
+kiuru.ogg http://commons.wikimedia.org/wiki/File:XN_Alauda_arvensis.ogg
+kuovi.jpg http://commons.wikimedia.org/wiki/File:Curlew_%28Numenius_arquata%29_%2812%29.jpg
+kuovi.ogg http://commons.wikimedia.org/wiki/File:XN_Numenius_arquata.ogg
+kurki.jpg http://commons.wikimedia.org/wiki/File:Grus_grus_4_%28Marek_Szczepanek%29.jpg
+kurki.ogg http://commons.wikimedia.org/wiki/File:Grus_grus.ogg
+pajulintu.jpg http://commons.wikimedia.org/wiki/File:Willow_warbler_UK09.JPG
+pajulintu.ogg http://commons.wikimedia.org/wiki/File:Phylloscopus_trochilus_acredula.ogg
