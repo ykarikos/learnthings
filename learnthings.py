@@ -65,7 +65,7 @@ category = sys.argv[1]
 # At least how many seconds each image is showed
 timeTreshold = 5
 # How many times any key must be pressed after timeTreshold seconds
-keypressTreshold = 5
+keypressTreshold = 3
 
 if not os.access(os.path.join("media", category), os.R_OK):
     print category, "category not found"
@@ -95,7 +95,7 @@ thingShowTime = time()
 keypresses = 0
 thingsShown = 1
 startTime = time()
-# Exit sequence
+# Exit sequence: q, u, i,t 
 exitSeq = [K_q, K_u, K_i, K_t]
 exitIndex = 0
 
