@@ -10,6 +10,7 @@ Author: Rémi Jouan
 
 File rooster.ogg
 Source: http://www.animal-sounds.org/farm/Rooster%20animals070.wav
+License: Freely distributable
 
 File: sheep.jpg
 Source: http://commons.wikimedia.org/wiki/File:Lleyn_sheep.jpg
@@ -18,6 +19,7 @@ Author: Jackhynes
 
 File: sheep.ogg
 Source: http://www.animal-sounds.org/farm/Sheep%20animals058.wav
+License: Freely distributable
 
 File: pig.jpg
 Source: http://commons.wikimedia.org/wiki/File:Sus_scrofa_scrofa.jpg
@@ -26,6 +28,7 @@ Author: Joshua Lutz
 
 File: pig.ogg
 Source: http://www.animal-sounds.org/farm/Pigs%20eating%20animals113.wav
+License: Freely distributable
 
 File: cow.jpg
 Source: http://commons.wikimedia.org/wiki/File:Cow_female_black_white.jpg
@@ -34,6 +37,7 @@ Author: Keith Weller/USDA
 
 File: cow.ogg
 Source: http://www.animal-sounds.org/farm/Cow%20animals084.wav
+License: Freely distributable
 
 File: dog.jpg
 Source: http://commons.wikimedia.org/wiki/File:YellowLabradorLooking_new.jpg
@@ -42,6 +46,7 @@ Author: Djmirko
 
 File: dog.ogg
 Source: http://www.animal-sounds.org/farm/Dog%20bark%20animals079.wav
+License: Freely distributable
 
 File: horse.jpg
 Source: http://commons.wikimedia.org/wiki/File:Nokota_Horses.jpg
@@ -50,6 +55,7 @@ Author: François Marchal
 
 File: horse.ogg
 Source: http://www.animal-sounds.org/farm/Horse-whinnying%20animals037.wav
+License: Freely distributable
 
 File: duck.jpg
 Source: http://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_var._domesticus_01.jpg
@@ -58,6 +64,7 @@ Author: Σ64
 
 File: duck.ogg
 Source: http://www.animal-sounds.org/farm/Duck-quacking%20animals038.wav
+License: Freely distributable
 
 File: cat.jpg
 Source: http://commons.wikimedia.org/wiki/File:European_shorthair_procumbent_Quincy.jpg
@@ -66,6 +73,7 @@ Author: Fleshgrinder
 
 File: cat.ogg
 Source: http://www.animal-sounds.org/farm/Cat%20meow%20animals021.wav
+License: Freely distributable
 
 File: chicken.jpg
 Source: http://commons.wikimedia.org/wiki/File:Chickens_eating.jpg
@@ -74,6 +82,7 @@ Author: Fir0002
 
 File: chicken.ogg
 Source: http://www.animal-sounds.org/farm/Chicken%20coop%20animals050.wav
+License: Freely distributable
 
 
 Birds
