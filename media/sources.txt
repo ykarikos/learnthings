@@ -125,7 +125,9 @@ License: CC-BY-SA-3.0
 Author: Softeis
 
 File: eagle-owl.ogg
-Source: http://www.animal-sounds.org/Air/owl%20animals074.wav
+Source: http://soundbible.com/1851-Horned-Owl.html
+License: CC-BY-3.0
+Author: Mike Koenig 
 
 File: common-snipe.jpg
 Source: http://commons.wikimedia.org/wiki/File:Gallinago_gallinago_a1.JPG
@@ -143,7 +145,9 @@ License: CC-BY-SA-2.5
 Author: Dschwen
 
 File: seagull.ogg
-Source: http://www.animal-sounds.org/Air/Seagulls%20animals133.wav
+Source: http://soundbible.com/1212-Herring-Gull-3.html
+License: CC-BY-NC-3.0
+Author: Tony Phillips
 
 File: crow.jpg
 Source: http://commons.wikimedia.org/wiki/File:Wrona_Siwa.jpg
