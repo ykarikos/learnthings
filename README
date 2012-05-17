@@ -2,16 +2,22 @@ Learnthings shows images and plays sounds of things. It is meant for
 small kids to learn to recognize e.g. animals.
 
 The media subdirectory contains photos and sounds of different kind of
-things. I've collected some public domain or free photos and sounds of
-animals and birds there.
+animals and birds.
 
 Usage: ./learnthings.py category
+
 Category must be found as a subdirectory under media. Try
 ./learnthings animals
+./learnthings birds
 
-The program quits with the keyboard sequence "quit".
-New things are displayed after five seconds and any five keys are pressed.
-Change timeTreshold and keypressTreshold to adjust when new things are
-displayed.
+The program quits with the keyboard sequence "quit". New things are displayed
+after five seconds and any three keys are pressed. Change timeTreshold and
+keypressTreshold to adjust when new things are displayed.
 
 Requirements: Python and Pygame
+
+learnthings.py (C) 2012 Yrjö Kari-Koskinen <ykk@peruna.fi>
+
+Learnthings' source code is licensed with the MIT License, see LICENSE.txt
+
+See media/sources.txt for media file licenses.

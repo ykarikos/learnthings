@@ -1,4 +1,10 @@
 #!/usr/bin/python
+#
+# learnthings.py (C) 2012 Yrjö Kari-Koskinen <ykk@peruna.fi>
+#
+# Program for small kids to learn recognizing e.g. animals
+#
+# See README and LICENSE.txt
 
 import os, sys, pygame, random
 from time import time

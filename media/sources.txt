@@ -1,56 +1,256 @@
+The sources and licenses of media files in Learnthings
 
-rooster.jpg http://commons.wikimedia.org/wiki/File:Coq_Belle-Ile.jpg
-rooster.ogg http://www.animal-sounds.org/farm/Rooster%20animals070.wav
-sheep.jpg http://commons.wikimedia.org/wiki/File:Lleyn_sheep.jpg
-sheep.ogg http://www.animal-sounds.org/farm/Sheep%20animals058.wav
-pig.jpg http://commons.wikimedia.org/wiki/File:Sus_scrofa_scrofa.jpg
-pig.ogg http://www.animal-sounds.org/farm/Pigs%20eating%20animals113.wav
-cow.jpg http://commons.wikimedia.org/wiki/File:Cow_female_black_white.jpg
-cow.ogg http://www.animal-sounds.org/farm/Cow%20animals084.wav
-dog.jpg http://commons.wikimedia.org/wiki/File:YellowLabradorLooking_new.jpg
-dog.ogg http://www.animal-sounds.org/farm/Dog%20bark%20animals079.wav
-horse.jpg http://commons.wikimedia.org/wiki/File:Nokota_Horses.jpg
-horse.ogg http://www.animal-sounds.org/farm/Horse-whinnying%20animals037.wav
-duck.jpg http://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_var._domesticus_01.jpg
-duck.ogg http://www.animal-sounds.org/farm/Duck-quacking%20animals038.wav
-cat.jpg http://commons.wikimedia.org/wiki/File:European_shorthair_procumbent_Quincy.jpg
-cat.ogg http://www.animal-sounds.org/farm/Cat%20meow%20animals021.wav
-chicken.jpg http://commons.wikimedia.org/wiki/File:Chickens_eating.jpg
-chicken.ogg http://www.animal-sounds.org/farm/Chicken%20coop%20animals050.wav
+Animals
+-------
 
-nightingale.jpg http://commons.wikimedia.org/wiki/File:Nachtigall_%28Luscinia_megarhynchos%29.jpg
-nightingale.ogg http://commons.wikimedia.org/wiki/File:XN_Luscinia_megarhynchos_012.ogg
-great-tit.jpg http://commons.wikimedia.org/wiki/File:Parus_major_2_Luc_Viatour.jpg
-great-tit.ogg http://commons.wikimedia.org/wiki/File:Parus_major_song.ogg
-peippo.jpg http://commons.wikimedia.org/wiki/File:Chaffinch_%28Fringilla_coelebs%29.jpg
-peippo.ogg http://upload.wikimedia.org/wikipedia/commons/a/a1/Fringilla_coelebs_short.ogg
-cuckoo.jpg http://commons.wikimedia.org/wiki/File:Cuculus_canorus_vogelartinfo_chris_romeiks_CHR0791.jpg
-cuckoo.ogg http://en.wikipedia.org/wiki/File:Cuculus_canorus.ogg
-eagle-owl.jpg http://commons.wikimedia.org/wiki/File:Uhu-muc.jpg
-eagle-owl.ogg http://www.animal-sounds.org/Air/owl%20animals074.wav
-common-snipe.jpg http://commons.wikimedia.org/wiki/File:Gallinago_gallinago_a1.JPG
-common-snipe.ogg http://en.wikipedia.org/wiki/File:Gallinago_gallinago.ogg
-seagull.jpg http://commons.wikimedia.org/wiki/File:Gull_ca_usa.jpg
-seagull.ogg http://www.animal-sounds.org/Air/Seagulls%20animals133.wav
-crow.jpg http://commons.wikimedia.org/wiki/File:Wrona_Siwa.jpg
-crow.ogg http://en.wikipedia.org/wiki/File:Corvus_cornix.ogg
-pigeon.jpg http://commons.wikimedia.org/wiki/File:Wood.pigeon.slimbridge.arp.jpg
-pigeon.ogg http://commons.wikimedia.org/wiki/File:Columba_palumbus_birdsong.ogg
-blackbird.jpg http://commons.wikimedia.org/wiki/File:Blackbird_2.jpg
-blackbird.ogg http://commons.wikimedia.org/wiki/File:Turdus_merula_2.ogg
-haarapaasky.jpg http://commons.wikimedia.org/wiki/File:Barn_Swallow_%28Hirundo_rustica%29_%2811%29.jpg
-haarapaasky.ogg http://commons.wikimedia.org/wiki/File:JMJ-20110717-070140-000392-barn-swallow.oga
-harakka.jpg http://commons.wikimedia.org/wiki/File:Elster2.jpg
-harakka.ogg http://commons.wikimedia.org/wiki/File:Pica_pica.ogg
-hiirihaukka.jpg http://commons.wikimedia.org/wiki/File:Buteo_buteo_-Scotland-8.jpg
-hiirihaukka.ogg http://commons.wikimedia.org/wiki/File:Buteo_buteo_poiana.ogg
-keltasirkku.jpg http://commons.wikimedia.org/wiki/File:Emberiza_citrinella_1_%28Martin_Mecnarowski%29.jpg
-keltasirkku.ogg http://commons.wikimedia.org/wiki/File:Emberiza_citrinella.ogg
-kiuru.jpg http://commons.wikimedia.org/wiki/File:Alauda_arvensis_2.jpg
-kiuru.ogg http://commons.wikimedia.org/wiki/File:XN_Alauda_arvensis.ogg
-kuovi.jpg http://commons.wikimedia.org/wiki/File:Curlew_%28Numenius_arquata%29_%2812%29.jpg
-kuovi.ogg http://commons.wikimedia.org/wiki/File:XN_Numenius_arquata.ogg
-kurki.jpg http://commons.wikimedia.org/wiki/File:Grus_grus_4_%28Marek_Szczepanek%29.jpg
-kurki.ogg http://commons.wikimedia.org/wiki/File:Grus_grus.ogg
-pajulintu.jpg http://commons.wikimedia.org/wiki/File:Willow_warbler_UK09.JPG
-pajulintu.ogg http://commons.wikimedia.org/wiki/File:Phylloscopus_trochilus_acredula.ogg
+File: rooster.jpg
+Source: http://commons.wikimedia.org/wiki/File:Coq_Belle-Ile.jpg
+License: CC-BY-SA-2.5
+Author: Rémi Jouan
+
+File rooster.ogg
+Source: http://www.animal-sounds.org/farm/Rooster%20animals070.wav
+
+File: sheep.jpg
+Source: http://commons.wikimedia.org/wiki/File:Lleyn_sheep.jpg
+License: Public Domain
+Author: Jackhynes
+
+File: sheep.ogg
+Source: http://www.animal-sounds.org/farm/Sheep%20animals058.wav
+
+File: pig.jpg
+Source: http://commons.wikimedia.org/wiki/File:Sus_scrofa_scrofa.jpg
+License: Public Domain
+Author: Joshua Lutz
+
+File: pig.ogg
+Source: http://www.animal-sounds.org/farm/Pigs%20eating%20animals113.wav
+
+File: cow.jpg
+Source: http://commons.wikimedia.org/wiki/File:Cow_female_black_white.jpg
+License: Public Domain
+Author: Keith Weller/USDA
+
+File: cow.ogg
+Source: http://www.animal-sounds.org/farm/Cow%20animals084.wav
+
+File: dog.jpg
+Source: http://commons.wikimedia.org/wiki/File:YellowLabradorLooking_new.jpg
+License: CC-BY-SA-2.5
+Author: Djmirko 
+
+File: dog.ogg
+Source: http://www.animal-sounds.org/farm/Dog%20bark%20animals079.wav
+
+File: horse.jpg
+Source: http://commons.wikimedia.org/wiki/File:Nokota_Horses.jpg
+License: CC-BY-SA-2.5
+Author: François Marchal
+
+File: horse.ogg
+Source: http://www.animal-sounds.org/farm/Horse-whinnying%20animals037.wav
+
+File: duck.jpg
+Source: http://commons.wikimedia.org/wiki/File:Anas_platyrhynchos_var._domesticus_01.jpg
+License: CC-BY-3.0
+Author: Σ64
+
+File: duck.ogg
+Source: http://www.animal-sounds.org/farm/Duck-quacking%20animals038.wav
+
+File: cat.jpg
+Source: http://commons.wikimedia.org/wiki/File:European_shorthair_procumbent_Quincy.jpg
+License: Public Domain
+Author: Fleshgrinder
+
+File: cat.ogg
+Source: http://www.animal-sounds.org/farm/Cat%20meow%20animals021.wav
+
+File: chicken.jpg
+Source: http://commons.wikimedia.org/wiki/File:Chickens_eating.jpg
+License: CC-BY-NC
+Author: Fir0002
+
+File: chicken.ogg
+Source: http://www.animal-sounds.org/farm/Chicken%20coop%20animals050.wav
+
+
+Birds
+-----
+
+File: nightingale.jpg
+Source: http://commons.wikimedia.org/wiki/File:Nachtigall_%28Luscinia_megarhynchos%29.jpg
+License: CC-BY-SA-3.0
+Author: J. Dietrich
+
+File: nightingale.ogg
+Source: http://commons.wikimedia.org/wiki/File:XN_Luscinia_megarhynchos_012.ogg
+License: CC-BY-SA-2.5
+Author: Guido Gerding
+
+File: great-tit.jpg
+Source: http://commons.wikimedia.org/wiki/File:Parus_major_2_Luc_Viatour.jpg
+License: CC-BY-SA-2.5
+Author: Luc Viatour / www.Lucnix.be
+
+File: great-tit.ogg
+Source: http://commons.wikimedia.org/wiki/File:Parus_major_song.ogg
+License: CC-BY-SA-3.0
+Author: Vladimir Yu. Arkhipov, Arkhivov
+
+File: peippo.jpg
+Source: http://commons.wikimedia.org/wiki/File:Chaffinch_%28Fringilla_coelebs%29.jpg
+License: CC-BY-SA-2.5
+Author: Andreas Trepte
+
+File: peippo.ogg
+Source: http://commons.wikimedia.org/wiki/File:Fringilla_coelebs_short.ogg
+License: Public Domain
+Author: Mysid
+
+File: cuckoo.jpg
+Source: http://commons.wikimedia.org/wiki/File:Cuculus_canorus_vogelartinfo_chris_romeiks_CHR0791.jpg
+License: CC-BY-NC-SA-3.0
+Author: Vogelartinfo
+
+File: cuckoo.ogg
+Source: http://en.wikipedia.org/wiki/File:Cuculus_canorus.ogg
+License: CC-BY-SA-3.0
+Author: Vladimir Yu. Arkhipov, Arkhivov
+
+File: eagle-owl.jpg
+Source: http://commons.wikimedia.org/wiki/File:Uhu-muc.jpg
+License: CC-BY-SA-3.0
+Author: Softeis
+
+File: eagle-owl.ogg
+Source: http://www.animal-sounds.org/Air/owl%20animals074.wav
+
+File: common-snipe.jpg
+Source: http://commons.wikimedia.org/wiki/File:Gallinago_gallinago_a1.JPG
+License: CC-BY-SA-3.0
+Author: Alpsdake
+
+File: common-snipe.ogg
+Source: http://commons.wikimedia.org/wiki/File:Gallinago_gallinago.ogg
+License: CC-BY-SA-3.0
+Author: Vladimir Yu. Arkhipov, Arkhivov
+
+File: seagull.jpg
+Source: http://commons.wikimedia.org/wiki/File:Gull_ca_usa.jpg
+License: CC-BY-SA-2.5
+Author: Dschwen
+
+File: seagull.ogg
+Source: http://www.animal-sounds.org/Air/Seagulls%20animals133.wav
+
+File: crow.jpg
+Source: http://commons.wikimedia.org/wiki/File:Wrona_Siwa.jpg
+License: CC-BY-SA-2.5
+Author: Wojsyl
+
+File: crow.ogg
+Source: http://commons.wikimedia.org/wiki/File:Corvus_cornix.ogg
+License: Public Domain
+Author: Mysid
+
+File: pigeon.jpg
+Source: http://commons.wikimedia.org/wiki/File:Wood.pigeon.slimbridge.arp.jpg
+License: Public Domain
+Author: Arpingstone
+
+File: pigeon.ogg
+Source: http://commons.wikimedia.org/wiki/File:Columba_palumbus_birdsong.ogg
+License: Public Domain
+Author: Mysid
+
+File: blackbird.jpg
+Source: http://commons.wikimedia.org/wiki/File:Blackbird_2.jpg
+License: CC-BY-SA-2.5
+Author: SonNy cZ
+
+File: blackbird.ogg
+Source: http://commons.wikimedia.org/wiki/File:Turdus_merula_2.ogg
+License: Public Domain
+Author: Mysid
+
+File: haarapaasky.jpg
+Source: http://commons.wikimedia.org/wiki/File:Barn_Swallow_%28Hirundo_rustica%29_%2811%29.jpg
+License: CC-BY-SA-3.0
+Author: Ken Billington / http://focusingonwildlife.com/
+
+File: haarapaasky.ogg
+Source: http://commons.wikimedia.org/wiki/File:JMJ-20110717-070140-000392-barn-swallow.oga
+License: CC-BY-SA-3.0
+Author: Jonathon Jongsma
+
+File: harakka.jpg
+Source: http://commons.wikimedia.org/wiki/File:Elster2.jpg
+License: CC-BY-SA-3.0
+Author: Stauss at the German language Wikipedia
+
+File: harakka.ogg
+Source: http://commons.wikimedia.org/wiki/File:Pica_pica.ogg
+License: Public Domain
+Author: Mysid
+
+File: hiirihaukka.jpg
+Source: http://commons.wikimedia.org/wiki/File:Buteo_buteo_-Scotland-8.jpg
+License: CC-BY-2.0
+Author: Mark Medcalf
+
+File: hiirihaukka.ogg
+Source: http://commons.wikimedia.org/wiki/File:Buteo_buteo_poiana.ogg
+License: CC-BY-SA-3.0
+Author: Patafisik
+
+File: keltasirkku.jpg
+Source: http://commons.wikimedia.org/wiki/File:Emberiza_citrinella_1_%28Martin_Mecnarowski%29.jpg
+License: CC-BY-SA-3.0
+Author: Martin Mecnarowski
+
+File: keltasirkku.ogg
+Source: http://commons.wikimedia.org/wiki/File:Emberiza_citrinella.ogg
+License: CC-BY-SA-3.0
+Author: Vladimir Yu. Arkhipov, Arkhivov
+
+File: kiuru.jpg
+Source: http://commons.wikimedia.org/wiki/File:Alauda_arvensis_2.jpg
+License: CC-BY-SA-2.5
+Author: Daniel Pettersson
+
+File: kiuru.ogg
+Source: http://commons.wikimedia.org/wiki/File:XN_Alauda_arvensis.ogg
+License: CC-BY-SA-2.5
+Author: Guido Gerding
+
+File: kuovi.jpg
+Source: http://commons.wikimedia.org/wiki/File:Curlew_%28Numenius_arquata%29_%2812%29.jpg
+License: CC-BY-SA-3.0
+Author: Ken Billington / http://focusingonwildlife.com/
+
+File: kuovi.ogg
+Source: http://commons.wikimedia.org/wiki/File:XN_Numenius_arquata.ogg
+License: CC-BY-SA-2.5
+Author: Guido Gerding
+
+File: kurki.jpg
+Source: http://commons.wikimedia.org/wiki/File:Grus_grus_4_%28Marek_Szczepanek%29.jpg
+License: CC-BY-SA-3.0
+Author: Marek Szczepanek
+
+File: kurki.ogg
+Source: http://commons.wikimedia.org/wiki/File:Grus_grus.ogg
+License: Public Domain
+Author: Volkov Vladislav Petrovic
+
+File: pajulintu.jpg
+Source: http://commons.wikimedia.org/wiki/File:Willow_warbler_UK09.JPG
+License: CC-BY-SA-3.0
+Author: Aviceda
+
+File: pajulintu.ogg
+Source: http://commons.wikimedia.org/wiki/File:Phylloscopus_trochilus_acredula.ogg
+License: Public Domain
+Author: Vladimir Yu. Arkhipov, Arkhivov
