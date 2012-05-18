@@ -19,5 +19,9 @@ Requirements: Python and Pygame
 learnthings.py (C) 2012 Yrjö Kari-Koskinen <ykk@peruna.fi>
 
 Learnthings' source code is licensed with the MIT License, see LICENSE.txt
-
 See media/sources.txt for media file licenses.
+
+See http://peruna.fi/kuu/2012/05/19/a-computer-game-for-toddlers-learnthings/
+for a blog posting about learnthings.
+
+See https://github.com/ykarikos/learnthings.js for a JS port of learnthings.
