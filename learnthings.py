@@ -53,8 +53,7 @@ class Thing:
         pygame.display.flip()
         if self.lang != "":
             self.namesound.play()
-            while mixer.get_busy():
-                time.sleep(0.5)
+            time.sleep(self.namesound.get_length() - 0.5)
         self.sound.play()
 
 class Random:
