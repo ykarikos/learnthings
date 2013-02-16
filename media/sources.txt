@@ -267,3 +267,91 @@ File: pajulintu.ogg
 Source: http://commons.wikimedia.org/wiki/File:Phylloscopus_trochilus_acredula.ogg
 License: Public Domain
 Author: Vladimir Yu. Arkhipov, Arkhivov
+
+
+Instruments
+-----------
+File: violin.jpg
+Soure: http://commons.wikimedia.org/wiki/File:Violin_VL100.jpg
+License: Public Domain
+Author: Just plain Bill
+
+File: violin.ogg
+Source: http://en.wikipedia.org/wiki/File:Telemann_-_2violin_Sonata_1-1.ogg
+License: CC-BY-SA-2.0
+Author: Raulbot
+
+File: trumpet.jpg
+Source: http://commons.wikimedia.org/wiki/File:Trumpet_1.jpg
+License: CC-BY-SA-3.0
+Author: PJ
+
+File: drums.jpg
+Source: http://en.wikipedia.org/wiki/File:OutsideBRX-15.JPG
+License: Public Domain
+Author: TommySalamiiiiii
+
+File drums.ogg
+Source: http://commons.wikimedia.org/wiki/File:Rock_beat_hi_hat.ogg
+License: CC-BY-SA-3.0
+Author: Clngre
+
+File: guitar.jpg
+Source: http://commons.wikimedia.org/wiki/File:Classical_Guitar_two_views.jpg
+License: CC-BY-SA-2.0
+Author: Martin Möller
+
+File: guitar.ogg
+Source: http://commons.wikimedia.org/wiki/File:Betsy_Bill_Furner.ogg
+License: Permission for reuse
+Author: Bill Furner
+
+File: recorder.jpg
+Source: http://en.wikipedia.org/wiki/File:Furulya_001.jpg
+License: Public Domain
+Author: Villanueva
+
+File: saxophone.jpg
+Source: http://en.wikipedia.org/wiki/File:Saxophone_alto.jpg
+License: CC-BY-SA-3.0
+Author: Tdvance
+
+File: bagpipe.jpg
+Source: http://en.wikipedia.org/wiki/File:Bagpiper_in_Edinburgh_001.jpg
+License: CC-BY-SA-3.0 
+Author: Postdlf
+
+File: bagpipe.ogg
+Source: http://en.wikipedia.org/wiki/File:Skye_Boat_Song.ogg
+License: CC-BY-SA-2.0
+Author: Clan Stewart Pipe Band
+
+File: piano.jpg
+Source: http://commons.wikimedia.org/wiki/File:Steinway_Vienna_011.JPG
+License: CC-BY-SA-3.0
+Author: Gryffindor
+
+File: piano.ogg
+Source: http://de.wikipedia.org/wiki/Datei:Modest_Mussorgsky_-_Pictures_at_an_Exhibition,_movement_1.ogg
+License: CC-BY-SA-2.0
+Author: Neal and Nancy O'Doan
+
+File: harp.jpg
+Source: http://commons.wikimedia.org/wiki/File:Harp_busker,_Dublin.jpg
+License: CC-BY-2.0
+Author: ktylerconk
+
+File: harp.ogg
+Source: http://en.wikipedia.org/wiki/File:Glissando_Imprecision_for_2_Harps.ogg
+License: CC-BY-SA-3.0
+Author: TudorTulok
+
+File: cembalo.jpg
+Source: http://commons.wikimedia.org/wiki/File:Clavecin_flamand.png
+License: CC-BY-SA-3.0
+Author: Ratigan
+
+File: cembalo.ogg
+Source: http://en.wikipedia.org/wiki/File:Bach_C_Major_Prelude_Equal.ogg
+License: CC-BY-SA-3.0
+Author: Robert Schröter
