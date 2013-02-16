@@ -18,9 +18,10 @@ class Thing:
     def __init__(self, category, name, width, height, lang):
         self.name = name
         self.category = category
-        self.size = (width, height)
+        self.screensize = (width, height)
         self.lang = lang
-        self.load()
+        self.sound = False
+        self.load()	
         
     def load(self):
         self.loadsounds()
@@ -29,32 +30,43 @@ class Thing:
     def loadimage(self):
         imagepath = os.path.join("media", self.category, "photos", self.name + ".jpg")
         try:
-            self.image = pygame.image.load(imagepath)
+            image = pygame.image.load(imagepath).convert()
+            self.image = pygame.transform.smoothscale(image, self.targetsize(image.get_size()))
         except pygame.error, message:
             raise SystemExit, message
-        self.image = self.image.convert()
-        self.image = pygame.transform.smoothscale(self.image, self.size)
 
     def loadsounds(self):
         if not mixer:
             self.sound = NoneSound()
         else:
             soundpath = os.path.join("media", self.category, "sounds", self.name + ".ogg")
-            self.sound = mixer.Sound(soundpath)
+            if (os.path.isfile(soundpath)):
+                self.sound = mixer.Sound(soundpath)
             if self.lang != "":
                 namepath = os.path.join("media", self.category, "names", self.lang, self.name + ".ogg")
                 self.namesound = mixer.Sound(namepath)
 
     def show(self, screen):
-        for y in range(-self.size[1], 1, 25):
-            screen.blit(self.image, (0,y))
+        imagesize = self.image.get_size()
+        center = (self.screensize[0] - imagesize[0]) / 2
+        for y in range(-self.screensize[1], 1, 25):
+            screen.fill((0,0,0), (0, 0, self.screensize[0], imagesize[1] + y))
+            screen.blit(self.image, (center,y))
             pygame.display.flip()
-        screen.blit(self.image, (0,0))
+        screen.blit(self.image, (center,0))
         pygame.display.flip()
         if self.lang != "":
             self.namesound.play()
             time.sleep(self.namesound.get_length() - 0.5)
-        self.sound.play()
+        if self.sound:
+            self.sound.play()
+
+    def targetsize(self, size):
+        if ((size[0] / size[1]) > (self.screensize[0] / self.screensize[1])):
+            return (self.screensize[0], size[1] * self.screensize[0] / size[0])
+        else:
+            return (size[0] * self.screensize[1] / size[1], self.screensize[1])
+
 
 class Random:
     """Produce random numbers between 0-limit that do not repeat"""
@@ -124,7 +136,6 @@ def main(timeTreshold, keypressTreshold):
     # Init pygame display
     print >> sys.stderr, "Loading", category, "..."
     pygame.init()
-    black = 0, 0, 0
     screen = pygame.display.set_mode((0,0), pygame.FULLSCREEN)
     pygame.mouse.set_visible(False)
     info = pygame.display.Info()
