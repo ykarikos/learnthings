@@ -21,7 +21,8 @@ class Thing:
         self.screensize = (width, height)
         self.lang = lang
         self.sound = False
-        self.load()	
+        self.namesound = False
+        self.load()    
         
     def load(self):
         self.loadsounds()
@@ -44,18 +45,27 @@ class Thing:
                 self.sound = mixer.Sound(soundpath)
             if self.lang != "":
                 namepath = os.path.join("media", self.category, "names", self.lang, self.name + ".ogg")
-                self.namesound = mixer.Sound(namepath)
+                if (os.path.isfile(namepath)):
+                    self.namesound = mixer.Sound(namepath)
 
     def show(self, screen):
         imagesize = self.image.get_size()
-        center = (self.screensize[0] - imagesize[0]) / 2
-        for y in range(-self.screensize[1], 1, 25):
+        center = ((self.screensize[0] - imagesize[0]) / 2, (self.screensize[1] - imagesize[1]) / 2)
+        
+        for y in range(-self.screensize[1], center[1], 25):
             screen.fill((0,0,0), (0, 0, self.screensize[0], imagesize[1] + y))
-            screen.blit(self.image, (center,y))
+            screen.blit(self.image, (center[0],y))
             pygame.display.flip()
-        screen.blit(self.image, (center,0))
+        screen.blit(self.image, (center[0],center[1]))
         pygame.display.flip()
-        if self.lang != "":
+
+        # clear space below photo
+        for y in range(center[1] + imagesize[1], self.screensize[1]+1, 25):
+            screen.fill((0,0,0), (0, y, self.screensize[0], y + 25))
+            pygame.display.flip()
+        
+        # play sounds
+        if self.namesound:
             self.namesound.play()
             time.sleep(self.namesound.get_length() - 0.5)
         if self.sound:
