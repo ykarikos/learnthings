@@ -52,16 +52,9 @@ class Thing:
         imagesize = self.image.get_size()
         center = ((self.screensize[0] - imagesize[0]) / 2, (self.screensize[1] - imagesize[1]) / 2)
         
-        for y in range(-self.screensize[1], center[1], 25):
+        for y in range(-self.screensize[1], center[1] + 1, 25):
             screen.fill((0,0,0), (0, 0, self.screensize[0], imagesize[1] + y))
             screen.blit(self.image, (center[0],y))
-            pygame.display.flip()
-        screen.blit(self.image, (center[0],center[1]))
-        pygame.display.flip()
-
-        # clear space below photo
-        for y in range(center[1] + imagesize[1], self.screensize[1]+1, 25):
-            screen.fill((0,0,0), (0, y, self.screensize[0], y + 25))
             pygame.display.flip()
         
         # play sounds
