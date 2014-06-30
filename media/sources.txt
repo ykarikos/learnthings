@@ -286,6 +286,11 @@ Source: http://commons.wikimedia.org/wiki/File:Trumpet_1.jpg
 License: CC-BY-SA-3.0
 Author: PJ
 
+File: trumpet.ogg
+Source: https://soundcloud.com/that90sgirl/trumpet-short-solo
+License: CC-BY-SA-3.0
+Author: that90sgirl
+
 File: drums.jpg
 Source: http://en.wikipedia.org/wiki/File:OutsideBRX-15.JPG
 License: Public Domain
@@ -311,10 +316,20 @@ Source: http://en.wikipedia.org/wiki/File:Furulya_001.jpg
 License: Public Domain
 Author: Villanueva
 
+File: recorder.ogg
+Source: https://soundcloud.com/ray-m-blanchard/morley-thomas-fyre-and
+License: CC-BY-SA-3.0
+Author: Ray M. Blanchard
+
 File: saxophone.jpg
 Source: http://en.wikipedia.org/wiki/File:Saxophone_alto.jpg
 License: CC-BY-SA-3.0
 Author: Tdvance
+
+File: saxophone.ogg
+Source: https://soundcloud.com/danijel-luketin/cowboy-bebob-cosmos-saxophone
+License: CC-BY-SA-3.0
+Author: Danijel Luketin
 
 File: bagpipe.jpg
 Source: http://en.wikipedia.org/wiki/File:Bagpiper_in_Edinburgh_001.jpg
