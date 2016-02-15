@@ -60,7 +60,7 @@ class Thing:
         # play sounds
         if self.namesound:
             self.namesound.play()
-            time.sleep(self.namesound.get_length() - 0.5)
+            time.sleep(max(0, self.namesound.get_length() - 0.5))
         if self.sound:
             self.sound.play()
 
